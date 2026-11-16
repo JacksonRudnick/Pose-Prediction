@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "C137D9F3-07BA-4050-95E8-C09891D8922B",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FrameGen",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

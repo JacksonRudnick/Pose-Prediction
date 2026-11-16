@@ -1,0 +1,27 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+using UnrealBuildTool;
+
+public class FrameGen : ModuleRules
+{
+	public FrameGen(ReadOnlyTargetRules Target) : base(Target)
+	{
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"EnhancedInput",
+			"Slate",
+			"UMG",
+		});
+
+		PrivateDependencyModuleNames.AddRange(new string[] {
+			"RenderCore",
+			"RHI",
+			"SlateCore",
+		});
+	}
+}
